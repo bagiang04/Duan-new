@@ -1,0 +1,35 @@
+<!-- <p-toast />
+<p-confirmDialog /> -->
+<h1>Thêm mới sản phẩm</h1>
+<form [formGroup]="productform" (ngSubmit)="onSubmit()">
+    <input class="custom-input" type="text" placeholder="Tên sản phẩm" formControlName="name"/>
+    <span class="text-red-600 text-[12px]" *ngIf="!productform.controls.name.valid&&(productform.controls.name.dirty||productform.controls.name.touched)">Tên không được để trống và > 6 kí tự</span>
+    <input  class="custom-input" type="text" placeholder="Ảnh sản phẩm" formControlName="image"/>
+    <input    class="custom-input" type="number" placeholder="Tên sản phẩm" formControlName="price"/>
+    <button class="custom-button" type="submit">Thêm sản phẩm</button>
+</form>
+<h3>Danh sách sản phẩm</h3>
+<table  class="custom-table">
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Ảnh</th>
+            <th>Tên sản phẩm</th>
+            <th>Danh mục</th>
+            <th>Giá tiền</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for(product of products;track product.id; let i = $index){
+            <tr>
+                <td>{{i+1}}</td>
+                <td><img class="w-[90px] h-[90px]" src="{{product.image}}"/></td>
+                <td>{{product.name}}</td>
+                <td>{{product.cat_id}}</td>
+                <td>{{product.price}}</td>
+                <td><a class="styled-link" href="dashboard/edit-product/{{product.id}}">Sửa</a><button class="style-link" (click)="onDelete(product.id,$event)">Xóa</button></td>
+            </tr>
+        }
+    </tbody>
+</table>

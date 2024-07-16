@@ -1,0 +1,5 @@
+<h1>Thêm danh mục</h1>
+<form [formGroup]="productform" (ngSubmit)="onSubmit()">
+    <input class="custom-input" type="text" placeholder="Tên danh mục" formControlName="name"/>
+    <button class="custom-button" type="submit">Thêm danh mục</button>
+</form>

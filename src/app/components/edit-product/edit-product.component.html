@@ -1,0 +1,12 @@
+<h1>Sửa sản phẩm</h1>
+<form [formGroup]="productform" (ngSubmit)="onSubmit()">
+    <input  class="custom-input" type="text" placeholder="Tên sản phẩm" formControlName="name"/>
+    <span class="text-red-600 text-[12px]" *ngIf="!productform.controls.name.valid&&(productform.controls.name.dirty||productform.controls.name.touched)">Tên không được để trống và > 6 kí tự</span>
+    <input  class="custom-input" type="text" placeholder="Ảnh sản phẩm" formControlName="image"/>
+    <select formControlName="cat_id">
+        <option value="1">Fashion</option>
+        <option value="2">Jewelry</option>
+    </select>
+    <input  class="custom-input" type="number" placeholder="Tên sản phẩm" formControlName="price"/>
+    <button class="custom-button" type="submit">Sửa sản phẩm</button>
+</form>

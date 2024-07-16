@@ -1,0 +1,128 @@
+.custom-button {
+    background-color: #4CAF50; /* Màu nền */
+    border: none; /* Không có viền */
+    color: white; /* Màu chữ */
+    padding: 15px 32px; /* Kích thước nút */
+    text-align: center; /* Căn giữa nội dung */
+    text-decoration: none; /* Không gạch chân */
+    display: inline-block;
+    font-size: 16px; /* Kích thước chữ */
+    margin: 4px 2px; /* Khoảng cách với các phần tử khác */
+    cursor: pointer; /* Hiển thị con trỏ khi rê chuột */
+    border-radius: 10px; /* Bo góc */
+    transition-duration: 0.4s; /* Hiệu ứng chuyển đổi */
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Màu nền khi hover */
+    color: white; /* Màu chữ khi hover */
+}
+
+
+/* Thiết lập border-box để padding và border được tính vào kích thước tổng */
+* {
+    box-sizing: border-box;
+}
+
+/* Style cho input */
+.custom-input {
+    width: 100%; /* Chiều rộng 100% của container */
+    padding: 12px 20px; /* Khoảng cách giữa viền và nội dung */
+    margin: 8px 0; /* Khoảng cách với các phần tử khác */
+    display: inline-block; /* Hiển thị là một khối dòng */
+    border: 1px solid #ccc; /* Viền */
+    border-radius: 4px; /* Bo góc */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng */
+    transition: box-shadow 0.3s ease; /* Hiệu ứng chuyển đổi */
+}
+
+/* Khi di chuột vào input */
+.custom-input:focus {
+    border-color: #4CAF50; /* Màu viền khi focus */
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.1); /* Hiệu ứng bóng khi focus */
+    outline: none; /* Loại bỏ đường viền */
+}
+h1{
+    font-size: 30px
+}
+
+
+/* Thiết lập border-box để padding và border được tính vào kích thước tổng */
+* {
+    box-sizing: border-box;
+}
+
+/* Style cho bảng */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse; /* Loại bỏ khoảng cách giữa các ô */
+    text-align: center;
+}
+
+/* Style cho header của bảng */
+.custom-table th {
+    background-color: #f2f2f2; /* Màu nền */
+    color: #333; /* Màu chữ */
+    padding: 8px;
+    text-align: left;
+    border-bottom: 2px solid #ddd; /* Viền dưới */
+}
+
+/* Style cho dòng trong bảng */
+.custom-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Viền dưới */
+}
+
+
+/* Style cho dòng lẻ của bảng */
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Màu nền của dòng lẻ */
+}
+
+
+
+/* styled-link.component.css */
+.styled-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #deec19;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.styled-link:hover {
+    background-color: #deec19;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.styled-link:active {
+    background-color: #004080;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.style-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ec1919;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.style-link:hover {
+    background-color: #ec1919;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.style-link:active {
+    background-color: #004080;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}

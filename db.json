@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "name": "iphone 12",
+      "image": "https://cdn-uploads.gameblog.fr/img/news/419501_6412f28d2c3e0.jpg",
+      "cat_id": 1,
+      "price": 25000,
+      "id": 7
+    },
+    {
+      "name": "iphone 12 promax",
+      "image": "https://mobilepriceall.com/wp-content/uploads/2022/09/Apple-iPhone-14-1024x1024.jpg",
+      "cat_id": 1,
+      "price": 250000,
+      "id": 8
+    },
+    {
+      "name": "iphone 13 promax",
+      "image": "https://mobilepriceall.com/wp-content/uploads/2022/09/Apple-iPhone-14-1024x1024.jpg",
+      "cat_id": 1,
+      "price": 250000,
+      "id": 9
+    },
+    {
+      "name": "iphone",
+      "image": "https://tse3.mm.bing.net/th?id=OIP.giJZkGWiPdje6k6xlHLzlgHaKm&pid=Api&P=0&h=180",
+      "cat_id": 1,
+      "price": 50000,
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "email": "angocit@gmail.com",
+      "password": "$2a$10$heE/ioj5g/b2zZVL8jCd9upbJpl.rMXQUlcqB8R4fxP5C/ISPJxmq",
+      "name": "Ngọc",
+      "id": 1
+    },
+    {
+      "email": "ngocnv34@fe.edu.vn",
+      "password": "$2a$10$/WcOiq/C8.tX7hvV6ayOte2HB77ZRj8NOE7PPj092nbN8yHmn4Oz.",
+      "name": "Ngọc",
+      "id": 2
+    },
+    {
+      "email": "chin@gmail.com",
+      "password": "$2a$10$r5ErmresfRKJCswKgZVWwegYLl2UGo2FLD6.jsWK98QFyWtQcUNpu",
+      "name": "chien",
+      "id": 3
+    },
+    {
+      "email": "chun@gmail.com",
+      "password": "$2a$10$Pcc8F28wvUkGMPQbUl9Q.OAGc8PUxLOTyD/ga7V8yjwBgtPFY26sS",
+      "name": "chiến",
+      "id": 4
+    },
+    {
+      "email": "cuchien@gmail.com",
+      "password": "$2a$10$pFVhI.aLgSlyCfz7FL23vOmzIhJo.Hr4qbZ7gwDub.IqKBqMFQjra",
+      "name": "Anh Chiến",
+      "id": 5
+    },
+    {
+      "email": "chinchin@gmail.com",
+      "password": "$2a$10$TxT78p/J2DX1Y6UfmEC9KuynkM.T9TrhiXtniBzyhBsl8wvaOp4z6",
+      "name": "anh chun",
+      "id": 6
+    },
+    {
+      "email": "chienkaph32686@gmail.com",
+      "password": "$2a$10$NgLk9r97vILGKbeDq/dqtucU3kaqi3zZLHVjyjopOnuoGibeLtlTC",
+      "name": "Khuất Anh Chiến",
+      "id": 7
+    },
+    {
+      "email": "anhchien@gmail.com",
+      "password": "$2a$10$JjanIR/apY1.4yyItTh/i.l0lnY9We//OHWaliTp2Zgxfm2fSwjdm",
+      "name": "chiến khuất anh",
+      "id": 8
+    },
+    {
+      "email": "chen@gmail.com",
+      "password": "$2a$10$vsMEt/pHhEvKpo9GMbjGgeqtgGvIKLN1Aq1Wcsui1gnQqXEJvIom2",
+      "name": "ghghhghgheod",
+      "id": 9
+    },
+    {
+      "email": "chien32686@gmail.com",
+      "password": "$2a$10$uOXkSqDnuecRvk7q/xtnuetaffM/Qzj0NxpEELyUxuMsU9PV/jcMq",
+      "name": "khuât anh chien",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<div *ngFor="let product of productSearch;let i = index "
+                                class="flex-[0.9528] rounded-[19.67px] box-border flex flex-col items-start justify-start py-[21px] px-3 gap-[2px] min-w-[284px] max-w-[309px] border-[1px] border-solid border-silver-500 mq450:flex-1">
+                                <div class="self-stretch overflow-hidden flex flex-row items-start justify-end   ">
+                                  <a href="ctsp/{{product.id}}">  <img alt="" src="{{product.image}}" /></a>
+                                    <div
+                                        class=" rounded-full bg-[#B3D4E5] h-[27.5px] w-[27.5px] rounded-103xl-4 bg-lightblue flex flex-row items-center justify-center">
+                                        <img class="h-[14.4px] w-[14.4px] relative" alt=""
+                                            src="../assets/vector heart.png" />
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-col items-start justify-start gap-[15.8px]">
+
+                                    <div class="relative font-medium">{{product.name}}</div>
+
+                                    <div
+                                        class="relative font-semibold text-darkslategray-100 inline-block min-w-[49px] whitespace-nowrap">
+                                        {{product.price}}
+                                    </div>
+                                    <div class="flex flex-row items-start justify-start gap-[10.8px]">
+                                        <img class="h-[14.6px] w-[14.7px] relative min-h-[15px]" alt=""
+                                            src="../assets/start.png" />
+
+                                        <img class="h-[14.6px] w-[14.7px] relative min-h-[15px]" alt=""
+                                            src="../assets/start.png" />
+
+                                        <img class="h-[14.6px] w-[14.7px] relative min-h-[15px]" alt=""
+                                            src="../assets/start.png" />
+
+                                        <img class="h-[14.6px] w-[14.7px] relative min-h-[15px]" alt=""
+                                            src="../assets/start.png" />
+
+                                        <img class="h-[14.6px] w-[14.7px] relative min-h-[15px]" alt=""
+                                            src="../assets/start.png" />
+                                    </div>
+                                </div>
+                            </div>

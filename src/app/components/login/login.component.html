@@ -1,0 +1,8 @@
+<form [formGroup]="loginform" class="flex flex-col" (ngSubmit)="onSubmit()">
+   <input class="custom-input" type="text" placeholder="Email" formControlName="email"/>
+    <span *ngIf="!loginform.controls.email.valid &&(loginform.controls.email.dirty||loginform.controls.email.touched)">Sai định dạng email</span>
+    <input  class="custom-input" type="password" placeholder="Mật khẩu" formControlName="password"/>
+    <span *ngIf="!loginform.controls.password.valid &&(loginform.controls.password.dirty||loginform.controls.password.touched)">Mật khẩu không nhỏ hơn 8 kí tự</span>
+    <button  class="custom-button" type="submit" [disabled]="!loginform.valid">Đăng nhập</button>
+</form>
+<!-- <button type="button" (click)="CheckUser()">Ktra</button> -->

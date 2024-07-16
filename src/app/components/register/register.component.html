@@ -1,0 +1,9 @@
+<form [formGroup]="registerform" class="flex flex-col" (ngSubmit)="onSubmit()">
+    <input  class="custom-input" type="text" placeholder="Họ tên" formControlName="name"/>
+    <span *ngIf="!registerform.controls.name.valid &&(registerform.controls.name.dirty||registerform.controls.name.touched)">Tên không để trống</span>
+    <input   class="custom-input" type="text" placeholder="Email" formControlName="email"/>
+    <span *ngIf="!registerform.controls.email.valid &&(registerform.controls.email.dirty||registerform.controls.email.touched)">Sai định dạng email</span>
+    <input class="custom-input" type="password" placeholder="Mật khẩu" formControlName="password"/>
+    <span *ngIf="!registerform.controls.password.valid &&(registerform.controls.password.dirty||registerform.controls.password.touched)">Mật khẩu không nhỏ hơn 8 kí tự</span>
+    <button class="custom-button" type="submit" [disabled]="!registerform.valid">Đăng ký</button>
+</form>
